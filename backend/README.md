@@ -36,3 +36,10 @@ Extractify will parse the PDF and will return the text.
 OR Deploy all the functions at once
 
 - ```gcloud functions deploy 'extractify' --runtime nodejs12 --trigger-http --entry-point=index```
+
+
+## Things that can be improved and alternatives
+- App can be converted into Express app and can be hosted on cloud functions
+- Can write middleware which except multiple middleware as arguments and resolve them
+- API for removing file
+- APIs are open, can add authentication
