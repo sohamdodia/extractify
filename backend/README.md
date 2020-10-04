@@ -14,6 +14,7 @@ Extractify will parse the PDF and will return the text.
 1. Clone this repo
 2. Copy `cloudStorageKeys.example.json` file into `cloudStorageKeys.json` file and add credentials.
 3. Copy `firestoreKeys.example.json` file into `firestoreKeys.json` file and add credentials.
+4. In helpers.js file, add your bucket name
 4. run `npm i`
 5. To run Project locally `npm run start`
 6. Server is running at: [http://localhost:8080](http://localhost:8080)
@@ -43,3 +44,4 @@ OR Deploy all the functions at once
 - Can write middleware which except multiple middleware as arguments and resolve them
 - API for removing file
 - APIs are open, can add authentication
+- helpers.js => bucket can be taken from constants file.
